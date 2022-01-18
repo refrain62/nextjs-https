@@ -32,3 +32,6 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# localhost 証明書を無視する
+/certificates
