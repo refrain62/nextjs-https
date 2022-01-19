@@ -33,7 +33,7 @@ mkcert localhost 127.0.0.1
 
 ```
 # localhost 証明書を無視する
-/certificates
+/certificates/*.pem
 ```
 
 
