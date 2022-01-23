@@ -13,10 +13,12 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ## mkcert のインストール
 これを使うと証明書の取得を一気にやってくれて便利です   
 下記の mkcer の内容よりWindows向けの処理を行う   
+管理者権限で開き、以下のコマンドでインストール    
 https://github.com/FiloSottile/mkcert
 
 ```
 choco install mkcert
+mkcert -install
 ```
 
 
